@@ -6,7 +6,7 @@ import uai.model.Gender;
 
 public class Create extends AbstractCrud{
     private final static String SQL_INSERT = "INSERT INTO `CRUD`.`customer` (`name`,`birth`,`gender`,`social_security_number`) " +
-            " VALUES(:name,:birth,:gender,:socialSecurityNumber)";
+                                             " VALUES(:name,:birth,:gender,:socialSecurityNumber)";
 
     public static void main(String[] args) {
         Connection connection = getOpenedConnection();
